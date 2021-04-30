@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Item" value="iphone12"/>
+  <parameter name="Bookname" value="Da Vinci code"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="scenarios.Cases">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="closetheBrowser"/>
+          <include name="scenario2"/>
+          <include name="scenario1"/>
+        </methods>
+      </class> <!-- scenarios.Cases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
